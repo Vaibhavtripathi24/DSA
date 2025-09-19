@@ -1,8 +1,15 @@
 class Solution {
 public:
-    bool isPowerOfThree(int n) {
-         if(n<=0) return false;
+ bool power(double n){
+    if(n<=0) return false;
     if(n==1) return true;
-   return n%3==0 && isPowerOfThree(n/3);
+   return power (n/3);
+
+
+}
+    bool isPowerOfThree(int n) {
+        double N=n;
+       bool a= power(n);
+        return a;
     }
 };
