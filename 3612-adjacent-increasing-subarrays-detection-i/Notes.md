@@ -1,0 +1,1 @@
+<h2>adjacent-increasing-subarrays-detection-i Notes</h2><hr>[ Time taken: 13 hrs 57 m 58 s ]
