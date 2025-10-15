@@ -7,7 +7,7 @@ public:
         int pre = 0;
         int cur = 0;
 
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; i++) {
             cur++;
             if (i == n - 1 || nums[i] >= nums[i + 1]) {
                 ans = max({ans, cur / 2, min(pre, cur)});
