@@ -4,7 +4,8 @@ public:
         int count = 0;
         int del = 0;
 
-        for(char c : s) {
+        for(int i = 0; i < s.length(); i++) {
+          char c = s[i];
             if(c == 'b') {
                 count++;
             } else {
