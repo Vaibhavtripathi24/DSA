@@ -12,6 +12,5 @@ public:
             if(nums[i]!=i) return i;
         }
         return n;
-        
     }
 };
